@@ -21,3 +21,20 @@ If you're looking for alternatives to GitHub, consider the following:
 2. **Bitbucket**: A Git and Mercurial code collaboration platform that integrates with Jira for issue tracking.
 
 3. **SourceForge**: A web-based platform that offers version control, bug tracking, and other features for software development.
+
+## Git Fetch vs. Git Pull
+
+- **Git Fetch**: Fetching retrieves changes from a remote repository but does not automatically merge them into your current branch. It allows you to review changes before merging.
+
+  ```bash
+  git fetch origin
+
+  ```
+
+- **Git Pull**: Pulling retrieves changes from a remote repository and automatically merges them into your current branch.
+
+  ```bash
+  git pull origin master
+
+  ```
+
