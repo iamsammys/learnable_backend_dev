@@ -37,4 +37,3 @@ If you're looking for alternatives to GitHub, consider the following:
   git pull origin master
 
   ```
-
