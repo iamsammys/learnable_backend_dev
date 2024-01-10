@@ -37,3 +37,11 @@ If you're looking for alternatives to GitHub, consider the following:
   git pull origin master
 
   ```
+
+- **Git Rebase**: Git rebase is a command used to integrate changes from one branch into another. It works by moving or combining a sequence of commits to a new base commit.
+
+  ```bash
+  git checkout feature-branch
+  git fetch origin
+  git rebase origin/main
+  ```
