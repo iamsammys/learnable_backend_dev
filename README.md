@@ -45,3 +45,10 @@ If you're looking for alternatives to GitHub, consider the following:
   git fetch origin
   git rebase origin/main
   ```
+
+- **Git Cherry-Pick**: Git cherry-pick is a command used to apply a specific commit from one branch to another. It allows you to select specific changes without merging entire branches.
+
+  ```bash
+  git checkout destination-branch
+  git cherry-pick <commit-hash>
+  ```
